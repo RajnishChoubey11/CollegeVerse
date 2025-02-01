@@ -10,7 +10,7 @@ import { Link, NavLink } from 'react-router-dom';
 const Navbar =()=>{
     return(
         <div className='navbar'>
-            <Link to="/"><img id='img' src={logo} alt='' /></Link>
+            <Link to="/CollegeVerse/"><img id='img' src={logo} alt='' /></Link>
             <NavLink to="/university" className='menu'><FontAwesomeIcon className='menu-logo' icon={faBuildingColumns} style={{color: "#11009e",}} />University</NavLink>
             <NavLink to="/engineering" className='menu'><FontAwesomeIcon className='menu-logo' icon={faGraduationCap} style={{color: "#11009e",}} />Engineering</NavLink>
             <NavLink to="/medical" className='menu'><FontAwesomeIcon className='menu-logo' icon={faHospital} style={{color: "#11009e",}} />Medical</NavLink>
