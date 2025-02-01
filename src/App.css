@@ -1,0 +1,15 @@
+.App{
+  display: flex;
+  flex-direction: column;
+}
+.section-first{
+  display: flex;
+  flex-direction: row;
+
+}
+@media (max-width:720px) {
+  .section-first{
+    display: flex;
+    flex-direction: column;
+  }
+}

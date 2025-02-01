@@ -1,0 +1,85 @@
+.Details{
+    margin: 20px;
+    border-radius: 3rem;
+    width: 80%;
+    height: 1024px;
+    background: linear-gradient(90deg,#11009e,#8696fe);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.details-image{
+    width: 300px;
+    height: 300px;
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.detail-image{
+    
+    width: 80%;
+    height: 80%;
+}
+.College-name{
+    color: #fdfdfd;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.college-rank{
+    color: #fdfdfd;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px;
+}
+.college-place{
+    color: #fdfdfd;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+}
+.college-link{
+    color: #fdfdfd;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+}
+.information{
+
+    color: #fdfdfd;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+@media (max-width:720px) {
+    .Details{
+        margin: 10px;
+        border-radius: 3rem;
+        width: auto;
+        height: 730px;
+        background: linear-gradient(90deg,#11009e,#8696fe);
+        display:flex;
+        flex-direction: column;
+    }
+    .college-rank{
+        color: #fdfdfd;
+        font-size: 33px;
+        font-weight: 700;
+        margin: 20px;
+    }
+    .College-name{
+        color: #fdfdfd;
+        font-size: 25px;
+        font-weight: 700;
+        margin: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}

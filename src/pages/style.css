@@ -1,0 +1,211 @@
+.Content{
+    margin: 20px;
+    border-radius: 3rem;
+    width: 80%;
+    height: 1024px;
+    background: linear-gradient(90deg,#11009e,#8696fe);
+    display:flex;
+    flex-direction: column;
+}
+h1{
+    color: #fdfdfd;
+}
+
+.search{
+    height: 60px;
+    border-radius: 2rem;
+    background-color: #fdfdfd;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#search{
+    margin-left: 20px;
+    height: 40px;
+    width: 90%;
+    outline: none;
+    border:none;
+    font-size: 25px;
+    background-color: #fdfdfd;
+    color: #11009e;
+    text-transform: capitalize;
+
+}
+::placeholder{
+    color: #11009e;
+}
+#btn1{
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    border: none;
+    font-size: 30px;
+    background-color: #fdfdfd;
+}
+
+.heading{
+    width: 360px;
+    height: 90px;
+    font-weight: 500;
+    background-color: #fdfdfd;
+    color:#11009e;
+    margin: 20px;
+    border-radius: 2rem;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+#bigBox{
+    height: 754px;
+    margin: 20px;
+    border-radius: 2.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    overflow: scroll;
+     
+}
+.box{
+    
+    display :flex;
+    flex-direction: column;
+    margin: auto;
+    width: 355px;
+    height: 465px;
+    margin-top:4.33px;
+    margin-bottom: 4.33px;
+    background-color: #abb4f2;
+    border-radius: 2.0rem;
+    text-decoration: none;
+    color: black;
+
+}
+
+.image-section{
+    width: 355px;
+    height: 355px;
+    background-color: #fdfdfd;
+    border-radius: 2.0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img{
+    width: 75%;
+    height: 75%;
+}
+
+.box:hover .image-section img{
+    
+    width: 85%;
+    height:85%;
+    transition-duration:0.8s ;
+    ;
+}
+
+.details-section{
+    width: 355px;
+    height: 110px;
+    margin: 10px;
+}
+@media (max-width:720px) {
+    .Content{
+        margin: 10px;
+        border-radius: 3rem;
+        width: auto;
+        height: 730px;
+        background: linear-gradient(90deg,#11009e,#8696fe);
+        display:flex;
+        flex-direction: column;
+    }
+    .heading{
+        width: 300px;
+        height: 80px;
+        font-weight: 500;
+        background-color: #fdfdfd;
+        color:#11009e;
+        margin: 20px;
+        border-radius: 2rem;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: default;
+    }
+    .search{
+        height: 60px;
+        border-radius: 2rem;
+        background-color: #fdfdfd;
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    #search{
+        margin-left: 20px;
+        height: 40px;
+        outline: none;
+        border:none;
+        font-size: 20px;
+        background-color: #fdfdfd;
+        color: #11009e;
+    
+    }
+    #btn1{
+        width: 30px;
+        height: 30px;
+        margin: 20px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        background-color: #fdfdfd;
+    }
+    #bigBox{
+        height: 500px;
+        margin: 20px;
+        border-radius: 2.25rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+        overflow: scroll;
+         
+    }
+    .box{
+        
+        display :flex;
+        flex-direction: column;
+        margin: auto;
+        width: 335px;
+        margin: 4.33px;
+        height: 465px;
+        border-radius: 2.0rem;
+        text-decoration: none;
+        color: black;
+    
+    }
+    .image-section{
+        width: 335px;
+        height: 335px;
+        background: #fdfdfd;
+        border-radius: 2.0rem;
+    }
+    .details-section{
+        width: 300px;
+        height: 100px;
+        background-color: #abb4f2;
+        overflow-inline: scroll;
+    }
+}

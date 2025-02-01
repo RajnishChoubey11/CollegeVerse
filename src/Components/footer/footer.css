@@ -1,0 +1,40 @@
+.footer{
+    background: linear-gradient(90deg,#11009e,#8696fe);
+    width:auto;
+    height: 500px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 3rem;
+    overflow: scroll;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fdfdfd;
+
+}
+.about h1{
+    font-size: 40px;
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+}
+@media (max-width:720px){
+
+    .footer{
+        background: linear-gradient(90deg,#11009e,#8696fe);
+        width:auto;
+        height: 500px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3rem;
+    }
+} 
