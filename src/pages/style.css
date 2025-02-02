@@ -119,6 +119,7 @@ h1{
 @media (max-width:720px) {
     .Content{
         margin: 10px;
+        margin-top: 0px;
         border-radius: 3rem;
         width: auto;
         height: 730px;
@@ -199,6 +200,43 @@ h1{
     .image-section{
         width: 335px;
         height: 335px;
+        background: #fdfdfd;
+        border-radius: 2.0rem;
+    }
+    .details-section{
+        width: 300px;
+        height: 100px;
+        background-color: #abb4f2;
+        overflow-inline: scroll;
+    }
+}
+@media (max-width:405px) {
+    .Content{
+        margin: 10px;
+        margin-top: 0px;
+        border-radius: 3rem;
+        width: auto;
+        height: 730px;
+        background: linear-gradient(90deg,#11009e,#8696fe);
+        display:flex;
+        flex-direction: column;
+    }
+    .box{
+        
+        display :flex;
+        flex-direction: column;
+        margin: auto;
+        width: 320px;
+        margin: 4.33px;
+        height: 420px;
+        border-radius: 2.0rem;
+        text-decoration: none;
+        color: black;
+    
+    }
+    .image-section{
+        width: 320px;
+        height: 320px;
         background: #fdfdfd;
         border-radius: 2.0rem;
     }
